@@ -161,7 +161,6 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                         <div className={styles.actions_input_container}>
-                            {/* <input className={styles.actions_input} type="text" placeholder="Type message..." value={typedText} onChange={typedTextChanged} onKeyDown={handleInputKeyDown} /> */}
                             <ContentEditable
                                 className={styles.actions_input}
                                 html={typedText}
